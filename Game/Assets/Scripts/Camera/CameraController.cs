@@ -23,6 +23,11 @@ public class CameraController : MonoBehaviour
     public Vector3 rotateStartPosition;
     public Vector3 rotateCurrentPosition;
 
+    public float minDistanceZoom;
+    public float maxDistanceZoom;
+
+    public string Notes;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -137,6 +142,9 @@ public class CameraController : MonoBehaviour
         {
             newZoom -= zoomAmount;
         }
+
+        newZoom.y = Mathf.Clamp(newZoom.y, -minDistanceZoom, maxDistanceZoom);
+        newZoom.z = Mathf.Clamp(newZoom.z, -maxDistanceZoom, minDistanceZoom);
 
         transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * movementTime);
         transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, Time.deltaTime * movementTime);
