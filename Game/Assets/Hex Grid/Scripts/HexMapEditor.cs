@@ -9,6 +9,7 @@ public class HexMapEditor : MonoBehaviour {
 
 	int activeElevation;
 	int activeWaterLevel;
+	int activeUrbanLevel;
 
 	Color activeColor;
 
@@ -17,6 +18,7 @@ public class HexMapEditor : MonoBehaviour {
 	bool applyColor;
 	bool applyElevation = true;
 	bool applyWaterLevel = true;
+	bool applyUrbanLevel;
 
 	enum OptionalToggle {
 		Ignore, Yes, No
@@ -34,6 +36,16 @@ public class HexMapEditor : MonoBehaviour {
 			activeColor = colors[index];
 		}
 	}
+
+	public void SetApplyUrbanLevel (bool toggle)
+    {
+		applyUrbanLevel = toggle;
+    }
+
+	public void SetUrbanLevel (float level)
+    {
+		activeUrbanLevel = (int)level;
+    }
 
 	public void SetApplyElevation (bool toggle) {
 		applyElevation = toggle;
@@ -142,6 +154,10 @@ public class HexMapEditor : MonoBehaviour {
 			if (applyWaterLevel) {
 				cell.WaterLevel = activeWaterLevel;
 			}
+			if (applyUrbanLevel)
+            {
+				cell.UrbanLevel = activeUrbanLevel;
+            }
 			if (riverMode == OptionalToggle.No) {
 				cell.RemoveRiver();
 			}
