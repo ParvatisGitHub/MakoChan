@@ -770,7 +770,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 980b3cf435fc5d947baf1829f9bec68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  urbanPrefabs:
-  - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
-  - {fileID: 6883553505064667446, guid: bffe029ac98d9a0459e5dcb911a986f3, type: 3}
-  - {fileID: 8983919092255147220, guid: 5ed05d98f3db3da4b8728460b659f41e, type: 3}
+  urbanCollections:
+  - prefabs:
+    - {fileID: 3946452653769158429, guid: 05029e36a0d77354a81c72e179d36907, type: 3}
+    - {fileID: 4188038227989504437, guid: 77ab35db4d19d994fad418f7d342105f, type: 3}
+    - {fileID: 7592145967271576050, guid: 00cfa46a516ef6b40bab4320f4b0940e, type: 3}
+  - prefabs:
+    - {fileID: 2688975954302667266, guid: 4f0eb2de14bc2814b9616fa188db905f, type: 3}
+    - {fileID: 8831357624053982021, guid: ca10eae6f7fbb0e4280d9967f80238a0, type: 3}
+    - {fileID: 4299297589412736836, guid: abd68bbfe95c77a43806d61fcff4e731, type: 3}
+    - {fileID: 6680381602829675819, guid: ecb3246c6c7987b49aecbbbdb7d222b7, type: 3}
+    - {fileID: 8770102045060801167, guid: 8298c9938885de542ac6603ea530cf92, type: 3}
+  - prefabs:
+    - {fileID: 1892335788196717255, guid: cc43f5be00b61e448aca01c42a076df0, type: 3}
+    - {fileID: 4695128609795842004, guid: 5357472b5105b2641b5fc118ceb9967b, type: 3}
+    - {fileID: 3536719417174213524, guid: ba0baf9f935f80b4880776e0015cb6d5, type: 3}
