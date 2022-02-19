@@ -20,7 +20,414 @@ public class HexCell : MonoBehaviour {
 			Refresh();
 		}
 	}
+	//Jungle, Temperate, Pine forests, FloodPlains, Farms, Urban
+	//Coal, Iron, Oil, Copper, Gold, MagiCrystals, MagiSteel, Uranium, RubberTrees, Aluminum, Lead, Mercury, Tin, Sulfur, Niter
+	//Ice, Reefs, Docks
+	//JungleLevel TforestLevel PforestLevel FarmLevel FplainsLevel UrbanLevel MineLevel ForestryLevel IceLevel ReefLevel DockLevel CoalLevel IronLevel OilLevel CopperLevel GoldLevel MagicrystalLevel MagisteelLevel
+	//UraniumLevel RubbertreeLevel AluminumLevel LeadLevel MercuryLevel TinLevel SulfurLevel NiterLevel
+	//holy fuck writing that out was hard
+	//Niter
+	public int NiterLevel
+	{
+		get
+		{
+			return niterLevel;
+		}
+		set
+		{
+			if (niterLevel != value)
+			{
+				niterLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Sulfur
+	public int SulfurLevel
+	{
+		get
+		{
+			return sulfurLevel;
+		}
+		set
+		{
+			if (sulfurLevel != value)
+			{
+				sulfurLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Tin
+	public int TinLevel
+	{
+		get
+		{
+			return tinLevel;
+		}
+		set
+		{
+			if (tinLevel != value)
+			{
+				tinLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Mercury
+	public int MercuryLevel
+	{
+		get
+		{
+			return mercuryLevel;
+		}
+		set
+		{
+			if (mercuryLevel != value)
+			{
+				mercuryLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Lead
+	public int LeadLevel
+	{
+		get
+		{
+			return leadLevel;
+		}
+		set
+		{
+			if (leadLevel != value)
+			{
+				leadLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Aluminum
+	public int AluminumLevel
+	{
+		get
+		{
+			return aluminumLevel;
+		}
+		set
+		{
+			if (aluminumLevel != value)
+			{
+				aluminumLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Rubber!!!! rubber trees
+	public int RubbertreeLevel
+	{
+		get
+		{
+			return rubbertreeLevel;
+		}
+		set
+		{
+			if (rubbertreeLevel != value)
+			{
+				rubbertreeLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Uranium
+	public int UraniumLevel
+	{
+		get
+		{
+			return uraniumLevel;
+		}
+		set
+		{
+			if (uraniumLevel != value)
+			{
+				uraniumLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//MagiSteel
+	public int MagisteelLevel
+	{
+		get
+		{
+			return magisteelLevel;
+		}
+		set
+		{
+			if (magisteelLevel != value)
+			{
+				magisteelLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//MagiCrystals
+	public int MagicrystalLevel
+	{
+		get
+		{
+			return magicrystalLevel;
+		}
+		set
+		{
+			if (magicrystalLevel != value)
+			{
+				magicrystalLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Gold
+	public int GoldLevel
+	{
+		get
+		{
+			return goldLevel;
+		}
+		set
+		{
+			if (goldLevel != value)
+			{
+				goldLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Copper
+	public int CopperLevel
+	{
+		get
+		{
+			return copperLevel;
+		}
+		set
+		{
+			if (copperLevel != value)
+			{
+				copperLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Oil
+	public int OilLevel
+	{
+		get
+		{
+			return oilLevel;
+		}
+		set
+		{
+			if (oilLevel != value)
+			{
+				oilLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Iron
+	public int IronLevel
+	{
+		get
+		{
+			return ironLevel;
+		}
+		set
+		{
+			if (ironLevel != value)
+			{
+				ironLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Coal
+	public int CoalLevel
+	{
+		get
+		{
+			return coalLevel;
+		}
+		set
+		{
+			if (coalLevel != value)
+			{
+				coalLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Docks
+	public int DockLevel
+	{
+		get
+		{
+			return dockLevel;
+		}
+		set
+		{
+			if (dockLevel != value)
+			{
+				dockLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Reefs
+	public int ReefLevel
+	{
+		get
+		{
+			return reefLevel;
+		}
+		set
+		{
+			if (reefLevel != value)
+			{
+				reefLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Ice
+	public int IceLevel
+	{
+		get
+		{
+			return iceLevel;
+		}
+		set
+		{
+			if (iceLevel != value)
+			{
+				iceLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Forestry
+	public int ForestryLevel
+	{
+		get
+		{
+			return forestryLevel;
+		}
+		set
+		{
+			if (forestryLevel != value)
+			{
+				forestryLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Mines
+	public int MineLevel
+	{
+		get
+		{
+			return mineLevel;
+		}
+		set
+		{
+			if (mineLevel != value)
+			{
+				mineLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
 
+
+	//Jungle Forest
+	public int JungleLevel
+	{
+		get
+		{
+			return jungleLevel;
+		}
+		set
+		{
+			if (jungleLevel != value)
+			{
+				jungleLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Temperate Forest
+	public int TforestLevel
+	{
+		get
+		{
+			return tforestLevel;
+		}
+		set
+		{
+			if (tforestLevel != value)
+			{
+				tforestLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Pine Forest
+	public int PforestLevel
+	{
+		get
+		{
+			return pforestLevel;
+		}
+		set
+		{
+			if (pforestLevel != value)
+			{
+				pforestLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//Farms
+	public int FarmLevel
+	{
+		get
+		{
+			return farmLevel;
+		}
+		set
+		{
+			if (farmLevel != value)
+			{
+				farmLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
+	//FloodPlains
+	public int FplainsLevel
+	{
+		get
+		{
+			return fplainsLevel;
+		}
+		set
+		{
+			if (fplainsLevel != value)
+			{
+				fplainsLevel = value;
+				RefreshSelfOnly();
+			}
+		}
+	}
 	public int UrbanLevel
     {
 		get
@@ -37,7 +444,8 @@ public class HexCell : MonoBehaviour {
         }
     }
 
-	int urbanLevel;
+	int urbanLevel, jungleLevel, tforestLevel, pforestLevel, farmLevel, fplainsLevel, mineLevel, forestryLevel, iceLevel, reefLevel, dockLevel, coalLevel, ironLevel, oilLevel, copperLevel, goldLevel;
+	int magicrystalLevel, magisteelLevel, uraniumLevel, rubbertreeLevel, aluminumLevel, leadLevel, mercuryLevel, tinLevel, sulfurLevel, niterLevel;
 
 	public int Elevation {
 		get {
