@@ -385,6 +385,106 @@ public class HexMapEditor : MonoBehaviour {
             {
 				cell.UrbanLevel = activeUrbanLevel;
             }
+			if (applyPforestLevel)
+			{
+				cell.PforestLevel = activePforestLevel;
+			}
+			if (applyMineLevel)
+			{
+				cell.MineLevel = activeMineLevel;
+			}
+			if (applyJungleLevel)
+			{
+				cell.JungleLevel = activeJungleLevel;
+			}
+			if (applyTforestLevel)
+			{
+				cell.TforestLevel = activeTforestLevel;
+			}
+			if (applyFplainsLevel)
+			{
+				cell.FplainsLevel = activeFplainsLevel;
+			}
+			if (applyForestryLevel)
+			{
+				cell.ForestryLevel = activeForestryLevel;
+			}
+			if (applyIceLevel)
+			{
+				cell.IceLevel = activeIceLevel;
+			}
+			if (applyReefLevel)
+			{
+				cell.ReefLevel = activeReefLevel;
+			}
+			if (applyDockLevel)
+			{
+				cell.DockLevel = activeDockLevel;
+			}
+			if (applyCoalLevel)
+			{
+				cell.CoalLevel = activeCoalLevel;
+			}
+			if (applyIronLevel)
+			{
+				cell.IronLevel = activeIronLevel;
+			}
+			if (applyOilLevel)
+			{
+				cell.OilLevel = activeOilLevel;
+			}
+			if (applyCopperLevel)
+			{
+				cell.CopperLevel = activeCopperLevel;
+			}
+			if (applyGoldLevel)
+			{
+				cell.GoldLevel = activeGoldLevel;
+			}
+			if (applyMagicrystalLevel)
+			{
+				cell.MagicrystalLevel = activeMagicrystalLevel;
+			}
+			if (applyMagisteelLevel)
+			{
+				cell.MagisteelLevel = activeMagisteelLevel;
+			}
+			if (applyUraniumLevel)
+			{
+				cell.UraniumLevel = activeUraniumLevel;
+			}
+			if (applyRubbertreeLevel)
+			{
+				cell.RubbertreeLevel = activeRubbertreeLevel;
+			}
+			if (applyAluminumLevel)
+			{
+				cell.AluminumLevel = activeAluminumLevel;
+			}
+			if (applyLeadLevel)
+			{
+				cell.LeadLevel = activeLeadLevel;
+			}
+			if (applyMercuryLevel)
+			{
+				cell.MercuryLevel = activeMercuryLevel;
+			}
+			if (applyTinLevel)
+			{
+				cell.TinLevel = activeTinLevel;
+			}
+			if (applySulfurLevel)
+			{
+				cell.SulfurLevel = activeSulfurLevel;
+			}
+			if (applyNiterLevel)
+			{
+				cell.NiterLevel = activeNiterLevel;
+			}
+			if (applyFarmLevel)
+			{
+				cell.FarmLevel = activeFarmLevel;
+			}
 			if (riverMode == OptionalToggle.No) {
 				cell.RemoveRiver();
 			}
