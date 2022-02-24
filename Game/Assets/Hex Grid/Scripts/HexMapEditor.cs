@@ -26,11 +26,20 @@ public class HexMapEditor : MonoBehaviour {
 		Ignore, Yes, No
 	}
 
-	OptionalToggle riverMode, roadMode;
+	OptionalToggle riverMode, roadMode, walledMode;
 
 	bool isDrag;
 	HexDirection dragDirection;
 	HexCell previousCell;
+
+
+
+
+
+	public void SetWalledMode(int mode)
+	{
+		walledMode = (OptionalToggle)mode;
+	}
 
 	public void SelectColor (int index) {
 		applyColor = index >= 0;
@@ -490,6 +499,10 @@ public class HexMapEditor : MonoBehaviour {
 			}
 			if (roadMode == OptionalToggle.No) {
 				cell.RemoveRoads();
+			}
+			if (walledMode != OptionalToggle.Ignore)
+			{
+				cell.Walled = walledMode == OptionalToggle.Yes;
 			}
 			if (isDrag) {
 				HexCell otherCell = cell.GetNeighbor(dragDirection.Opposite());
