@@ -39,11 +39,17 @@ public static class HexMetrics {
 
 	public const int chunkSizeX = 5, chunkSizeZ = 5;
 
-	public const float wallHeight = 3f;
+	public const float wallHeight = 4f;
+
+	public const float wallYOffset = -1f;
+
+	public const float wallTowerThreshold = 0.5f;
 
 	public const float wallThickness = 0.75f;
 
 	public const int hashGridSize = 256;
+
+	public const float bridgeDesignLength = 7f;
 
 	static HexHash[] hashGrid;
 
@@ -109,7 +115,7 @@ public static class HexMetrics {
 		near.z += (far.z - near.z) * 0.5f;
 		float v =
 			near.y < far.y ? wallElevationOffset : (1f - wallElevationOffset);
-		near.y += (far.y - near.y) * v;
+		near.y += (far.y - near.y) * v + wallYOffset;
 		return near;
 	}
 

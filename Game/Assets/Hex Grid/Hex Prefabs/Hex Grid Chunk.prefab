@@ -870,6 +870,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walls: {fileID: 9123695185167076296}
+  wallTower: {fileID: 533661692282230341, guid: e9794a76ab1c8414883c3947b1d91ba3, type: 3}
+  bridge: {fileID: 4000012598710820, guid: a68fcb78728627f43838d6154c3e5642, type: 3}
+  special:
+  - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+  - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+  - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+  - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
   urbanCollections:
   - prefabs:
     - {fileID: 3946452653769158429, guid: 05029e36a0d77354a81c72e179d36907, type: 3}
@@ -901,11 +908,11 @@ MonoBehaviour:
     - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
   pforestCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5072681366701889464, guid: f00220b9b4d5423419073db3614350a5, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 8200965356553698344, guid: 14e8eeb8037cc3e40810429c05cd25b5, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 6876090407520991536, guid: dd012e90517d11b45ba3b0c9f1a659d3, type: 3}
   farmCollections:
   - prefabs:
     - {fileID: 3946452653769158429, guid: 05029e36a0d77354a81c72e179d36907, type: 3}

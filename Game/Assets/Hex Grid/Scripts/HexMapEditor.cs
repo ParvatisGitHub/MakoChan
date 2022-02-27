@@ -11,6 +11,7 @@ public class HexMapEditor : MonoBehaviour {
 	int activeWaterLevel;
 	int activeUrbanLevel, activeJungleLevel, activeTforestLevel, activePforestLevel, activeFarmLevel, activeFplainsLevel, activeMineLevel, activeForestryLevel, activeIceLevel, activeReefLevel, activeDockLevel, activeCoalLevel, activeIronLevel, activeOilLevel, activeCopperLevel, activeGoldLevel;
 	int activeMagicrystalLevel, activeMagisteelLevel, activeUraniumLevel, activeRubbertreeLevel, activeAluminumLevel, activeLeadLevel, activeMercuryLevel, activeTinLevel, activeSulfurLevel, activeNiterLevel;
+	int activeSpecialIndex;
 
 	Color activeColor;
 
@@ -21,6 +22,8 @@ public class HexMapEditor : MonoBehaviour {
 	bool applyWaterLevel = true;
 	bool applyUrbanLevel, applyJungleLevel, applyTforestLevel, applyPforestLevel, applyFarmLevel, applyFplainsLevel, applyMineLevel, applyForestryLevel, applyIceLevel, applyReefLevel, applyDockLevel, applyCoalLevel, applyIronLevel, applyOilLevel, applyCopperLevel, applyGoldLevel;
 	bool applyMagicrystalLevel, applyMagisteelLevel, applyUraniumLevel, applyRubbertreeLevel, applyAluminumLevel, applyLeadLevel, applyMercuryLevel, applyTinLevel, applySulfurLevel, applyNiterLevel;
+	bool applySpecialIndex;
+
 
 	enum OptionalToggle {
 		Ignore, Yes, No
@@ -33,7 +36,15 @@ public class HexMapEditor : MonoBehaviour {
 	HexCell previousCell;
 
 
+	public void SetApplySpecialIndex(bool toggle)
+	{
+		applySpecialIndex = toggle;
+	}
 
+	public void SetSpecialIndex(float index)
+	{
+		activeSpecialIndex = (int)index;
+	}
 
 
 	public void SetWalledMode(int mode)
@@ -389,6 +400,10 @@ public class HexMapEditor : MonoBehaviour {
 			}
 			if (applyWaterLevel) {
 				cell.WaterLevel = activeWaterLevel;
+			}
+			if (applySpecialIndex)
+			{
+				cell.SpecialIndex = activeSpecialIndex;
 			}
 			if (applyUrbanLevel)
             {
