@@ -894,18 +894,20 @@ MonoBehaviour:
     - {fileID: 3536719417174213524, guid: ba0baf9f935f80b4880776e0015cb6d5, type: 3}
   jungleCollections:
   - prefabs:
-    - {fileID: 8983919092255147220, guid: 5ed05d98f3db3da4b8728460b659f41e, type: 3}
+    - {fileID: 9212804255241565512, guid: 06e27ae867ed3c2469764df35773ecc7, type: 3}
   - prefabs:
-    - {fileID: 8983919092255147220, guid: 5ed05d98f3db3da4b8728460b659f41e, type: 3}
+    - {fileID: 9212804255241565512, guid: 06e27ae867ed3c2469764df35773ecc7, type: 3}
   - prefabs:
-    - {fileID: 8983919092255147220, guid: 5ed05d98f3db3da4b8728460b659f41e, type: 3}
+    - {fileID: 3511391759282456288, guid: 72163dfe5c84fdf4988f21414d2a7b1e, type: 3}
   tforestCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 3610854533202093946, guid: 316b73c4232786a44930d193abba35c6, type: 3}
+    - {fileID: 3610854533202093946, guid: 316b73c4232786a44930d193abba35c6, type: 3}
+    - {fileID: 3234001043866021814, guid: 2893848b814488342bc9587613f845f4, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 2757064315690987921, guid: a98af0efce5e9414e9357dadc8b0db84, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 318528450244208682, guid: d5ebdc00a8aa3a149ab434ffd2900756, type: 3}
   pforestCollections:
   - prefabs:
     - {fileID: 5072681366701889464, guid: f00220b9b4d5423419073db3614350a5, type: 3}
