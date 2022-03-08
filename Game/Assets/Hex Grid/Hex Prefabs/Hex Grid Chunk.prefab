@@ -966,18 +966,18 @@ MonoBehaviour:
     - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
   coalCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: 0c53a851671892841959060fd5473258, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: d30c19eda34647c418fda253aa19fa5c, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: 8548304910acddf4fb8301763b1ab57c, type: 3}
   ironCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: d0ccd56bd959b89488d795122cb55420, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: 8fa7a8754d1aea04ebb5038404f58db4, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: 4062b51a6565fd643a5c51ac43bd78cc, type: 3}
   oilCollections:
   - prefabs:
     - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
@@ -987,39 +987,39 @@ MonoBehaviour:
     - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
   copperCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: 2b28a5ca996d5da4da23331bddc1dc18, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: 1258a9cfb07deb9408b4ddb4af2bc3f0, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: 2f67c432b1bab0b44ab7305e9cb508c5, type: 3}
   goldCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: fbed20b8d57fb9241937652811dc6701, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: 3e620fce91841de48974f3ae9738dc37, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: 98852b87a2b9bd946bc14398bb995ad0, type: 3}
   magicrystalCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: 21640699ae2d0e94283fe586b28dabd9, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: b944bd18d2827754086c13d53e304676, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: daacba809433a4846a858761dc0057c0, type: 3}
   magisteelCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: 91b252eae7919884c831a75ed8fbda10, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: 98808ec296b5b194fabed8aacab61aee, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: 3777b66c203c1eb45b3f694140a6935e, type: 3}
   uraniumCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: 53d6944251ee32e4195a3072a7c36fa9, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: b70be9c7a2f9c8d4088930ebb26995f6, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: 0044a7e8bca10ec41b7dca7f6710488f, type: 3}
   rubbertreeCollections:
   - prefabs:
     - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
@@ -1029,43 +1029,43 @@ MonoBehaviour:
     - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
   aluminumCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: ef063d56238db204799842f421ae86cc, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: 3843bfd57cc1e85418340155204153f5, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: 98deca5468ae93e4fbf25426b5a6e9c0, type: 3}
   leadCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: 34f86eaece6c54f40b2b2ce700de0a46, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: d76a0635407d78247b34ff6985f56964, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: 828b32e4ee794b1418006db1556d657e, type: 3}
   mercuryCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: 9fd2295d426a6614182e7aa0dacef412, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: fabd14f02769ccd4fbdf5e0a09fc7eb9, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: 6d823f1130d706b489a7acad72a4b600, type: 3}
   tinCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: bcd4ff381ef716c468106e8c00de24f5, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: e0d49e8f87bb6c64e85b44514b105012, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: d6b0bb06fbda1a047bf20778d1d2cc6b, type: 3}
   sulfurCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: d92b487289f4f464f971a89188ce8900, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: b3230a34560fb1d4f985fd85b677b7e1, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: e323f6edc32217640b2fb4053e91ccf6, type: 3}
   niterCollections:
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5954123161421165758, guid: 627d64554665d2e49847b7eb4144f3b5, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 5190709198324008667, guid: 596223771a5aad446a4284f5d551ba29, type: 3}
   - prefabs:
-    - {fileID: 5976990102081440837, guid: 9defa0dee4ab40c4db7aa8bbfb97454c, type: 3}
+    - {fileID: 4536120004101439834, guid: eeafe3e0014b74a4794a731d56b82009, type: 3}

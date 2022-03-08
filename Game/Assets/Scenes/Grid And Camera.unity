@@ -13209,7 +13209,7 @@ MonoBehaviour:
   dragCurrentPosition: {x: 0, y: 0, z: 0}
   rotateStartPosition: {x: 0, y: 0, z: 0}
   rotateCurrentPosition: {x: 0, y: 0, z: 0}
-  minDistanceZoom: -15
+  minDistanceZoom: -10
   maxDistanceZoom: 200
   Notes: 'Min/Max Zoom: New Zoom Z Value'
 --- !u!1 &1255193670
